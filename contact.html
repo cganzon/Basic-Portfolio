@@ -4,34 +4,45 @@
 
 <head>
     <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Cezar Ganzon Jr.</h1>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </header>
+    <div class="background">
+        <header>
+            <div class="style">
+                <h1>Cezar Ganzon Jr.</h1>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
 
-    <form>
-        <h2>Contact</h2>
+        <form class="content">
+            <h2>Contact</h2>
+            <hr>
+            <label for="name">Name
+                <input type="text" class="inputwidth" id="lastname" placeholder="Your name">
+            </label>
 
-        <label for="name">Name</label>
-        <input type="text" id="lastname" placeholder="Your name">
-        <br>
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Email">
-        <br>
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="Message"></textarea>
-        <br>
-        <input type="submit">
-    </form>
+            <label for="email">Email
+                <input type="email" class="inputwidth" id="email" placeholder="Email">
+            </label>
 
-    <footer>
-        <p>Copyright &copy;</p>
-    </footer>
+            <label for="message">Message
+                <br>
+                <textarea id="message" placeholder="Message"></textarea>
+            </label>
+
+            <button class="button">Submit</button>
+        </form>
+
+        <footer>
+            <h5>Copyright &copy;</h5>
+        </footer>
+    </div>
 </body>
 
 </html>

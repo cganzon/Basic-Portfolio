@@ -1,0 +1,137 @@
+body {
+    background-color: #4aaaa5;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    top: 0;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 100px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    right: -20px;
+    top: 50px;
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    float: left;
+    position: relative;
+    left: -20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding: 32px 5px 32px 5px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times "New Roman", serif;
+    color: #4aaaa5;
+}
+
+h5 {
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 954px;
+    height: 225px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: darkcyan;
+}
+
+.style {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.content {
+    margin:0 auto;
+    position: relative;
+    top: 30px;
+    background-color: #ffffff;
+    width: 960px;
+    height: 500px;
+    padding: 20px;
+}
+
+.background {
+    background-image: url("../images/crossline-lines.png");
+    margin: 0;
+    width: 100%;
+    height: 880px;
+}
+
+.inputwidth {
+    width: 955px;
+}
+
+.button {
+    border: none;
+    padding: 10px;
+}
+
+#profile {
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding: 10px 10px 10px 0;;
+}
+
+#clear {
+    clear: all;
+}
+
